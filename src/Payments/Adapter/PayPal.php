@@ -9,12 +9,13 @@ class PayPal extends AbstractAdapter {
     public function request() {
         
     }
-    
+
     public function response() {
         
     }
 
-    public function check(){
+    public function check() {
         
     }
+
 }
