@@ -2,11 +2,15 @@
 
 namespace Pavlyshyn\Payments\Adapter;
 
-use Pavlyshyn\Payments\PaymentInterface;
+use Pavlyshyn\Payments\AbstractAdapter;
 
-class PayPal implements PaymentInterface {
+class PayPal extends AbstractAdapter {
 
     public function request() {
+        
+    }
+    
+    public function response() {
         
     }
 
